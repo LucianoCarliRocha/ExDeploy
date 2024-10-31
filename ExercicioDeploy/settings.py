@@ -83,17 +83,28 @@ WSGI_APPLICATION = 'ExercicioDeploy.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres.tsnvjodmmkonjmlfqrwv',
+#         'PASSWORD': '[YOUR-PASSWORD]',
+#         'HOST': 'aws-0-us-west-1.pooler.supabase.com',
+#         'PORT': '6543',
+#     }
+# }
+# 
+#criar um banco de dados no supabase
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nome_do_banco',
-        'USER': 'usuario_do_supabase',
-        'PASSWORD': 'senha_do_supabase',
-        'HOST': 'host_do_supabase',
-        'PORT': '5432',
+        'NAME': 'postgres',
+        'USER': 'postgres.tsnvjodmmkonjmlfqrwv',
+        'PASSWORD': 'Lr270191!270191',
+        'HOST': 'aws-0-us-west-1.pooler.supabase.com',
+        'PORT': '6543',
     }
 }
-#criar um banco de dados no supabase
 
 
 # Password validation
